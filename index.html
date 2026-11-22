@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>岗不踩坑 v14｜评测分享</title>
+<meta name="description" content="岗不踩坑 v14 演示视频、路演 PDF 与 PPTX。">
+<style>
+  :root{--ink:#16382e;--muted:#557068;--line:#d8e5df;--bg:#f5f9f6;--card:#fff;--accent:#07604b}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+  main{max-width:60rem;margin:auto;padding:2rem 1.25rem 3rem}
+  .top{display:flex;align-items:center;gap:.7rem;flex-wrap:wrap;margin-bottom:1.6rem}
+  .logo{width:2.2rem;height:2.2rem;border-radius:.7rem;background:var(--accent);color:#fff;display:grid;place-items:center;font-weight:800}
+  .brand{font-weight:800;font-size:1.15rem;letter-spacing:.02em}
+  .tag{font-size:.78rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:.18rem .6rem;background:#fff}
+  h1{font-size:clamp(1.6rem,4vw,2.5rem);line-height:1.2;margin:.2rem 0 .6rem;letter-spacing:-.02em}
+  h1 span{color:var(--accent)}
+  .lede{max-width:44rem;color:var(--muted);margin:0 0 1.6rem}
+  video{display:block;width:100%;max-height:70vh;background:#0d241d;border-radius:14px;box-shadow:0 16px 40px rgba(13,36,29,.18)}
+  .caption{font-size:.85rem;color:var(--muted);margin:.55rem 0 1.6rem}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.85rem;margin:0 0 1.8rem}
+  .card{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1rem 1.1rem;text-decoration:none;color:inherit;transition:transform .15s,border-color .15s}
+  .card:hover{transform:translateY(-2px);border-color:#9fc7b8}
+  .card strong{display:block;margin-bottom:.2rem}
+  .card span{font-size:.84rem;color:var(--muted)}
+  .actions{display:flex;gap:.6rem;flex-wrap:wrap;margin:1rem 0 1.8rem}
+  .btn{display:inline-block;border:1px solid var(--line);background:#fff;color:var(--accent);padding:.55rem .85rem;border-radius:9px;text-decoration:none;font-weight:600;font-size:.9rem}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+  .note{font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);padding-top:1rem;margin-top:2rem}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <span class="logo" aria-hidden="true">岗</span>
+    <span class="brand">岗不踩坑</span>
+    <span class="tag">v14 · 评测分享</span>
+  </div>
+
+  <h1>把招聘公告，<span>变成能核对的清单。</span></h1>
+  <p class="lede">粘贴或导入一条岗位公告，逐条对照学历、学位、届别、专业；每条结论都指回原文行。不替你做“能不能报”的最终决定，只把证据摆出来。</p>
+
+  <video controls playsinline preload="metadata" src="gangbucaikeng-v14-demo.mp4">
+    浏览器不支持内嵌播放，请使用下方“下载 MP4”。
+  </video>
+  <p class="caption">操作录屏 · 约 69 秒 · 无账号、无后台数据</p>
+
+  <div class="actions">
+    <a class="btn primary" href="gangbucaikeng-v14-demo.mp4" download>下载演示 MP4</a>
+    <a class="btn" href="gangbucaikeng-v14-pitch.pdf">在线看路演 PDF</a>
+    <a class="btn" href="gangbucaikeng-v14-pitch.pptx" download>下载路演 PPTX</a>
+  </div>
+
+  <div class="grid">
+    <a class="card" href="gangbucaikeng-v14-demo.mp4">
+      <strong>演示视频</strong><span>MP4 · 约 9.5 MB · 可在线播放或下载</span>
+    </a>
+    <a class="card" href="gangbucaikeng-v14-pitch.pdf">
+      <strong>路演 PDF</strong><span>4 页 · 浏览器直接预览</span>
+    </a>
+    <a class="card" href="gangbucaikeng-v14-pitch.pptx">
+      <strong>路演 PPTX</strong><span>可编辑源文件 · 下载</span>
+    </a>
+  </div>
+
+  <p class="note">本页仅用于评测分享，不含源码仓库、个人资料或账号信息。页面与文件均托管在 GitHub Pages；若在中国大陆访问较慢，可改用下方文件的直链下载。</p>
+</main>
+</body>
+</html>
